@@ -1,0 +1,211 @@
+:root {
+    /* Background colors */
+    --color-bg-icon-1: #265b80;
+    --color-bg-icon-2: #265b80;
+    --color-bg-icon-3: #53b7f8;
+    --color-bg-icon-4: #5f3154;
+  
+    /* Shadow colors */
+    --color-shadow-icon-1: rgba(0, 0, 0, 0.35);
+    --color-shadow-icon-2: rgba(0, 0, 0, 0.35);
+    --color-shadow-icon-3: rgba(0, 0, 0, 0.2);
+    --color-shadow-icon-4: rgba(0, 0, 0, 0.35);
+  }
+  
+  @font-face {
+    font-family: "Open Sans";
+    font-weight: 400;
+    src: url(fonts/Open_Sans/OpenSans-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: "Open Sans";
+    font-weight: 700;
+    src: url(fonts/Open_Sans/OpenSans-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: "Inconsolata";
+    font-weight: 700;
+    src: url(fonts/Inconsolata/Inconsolata-Bold.ttf);
+  }
+  
+  body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: white;
+  }
+  
+  .icons_block {
+    margin-top: 56px;
+  }
+  
+  .container {
+    max-width: 676px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+    background-color: white;
+    box-sizing: border-box;
+  }
+  
+  .icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .icon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+  
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.35);
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .icon::before {
+    opacity: 0;
+    content: "!";
+    position: absolute;
+    top: -35px;
+    bottom: 0;
+    font-size: 100px;
+    font-family: "Inconsolata", monospace;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.2);
+  }
+  
+  .icon::after {
+    content: "";
+    position: absolute;
+  }
+  
+  .icon_img {
+    display: block;
+    width: auto;
+    height: auto;
+    z-index: 100;
+  }
+  
+  .icon_1 {
+    background-color: var(--color-bg-icon-1);
+  }
+  
+  .icon_2 {
+    background-color: var(--color-bg-icon-2);
+  }
+  
+  .icon_3 {
+    background-color: var(--color-bg-icon-3);
+  }
+  
+  .icon_4 {
+    background-color: var(--color-bg-icon-4);
+  }
+  
+  .icon_1::after {
+    top: 31px;
+    right: 0;
+    width: 61%;
+    height: 70%;
+    transform: rotate(40deg);
+    background-color: var(--color-shadow-icon-1);
+  }
+  
+  .icon_2::after {
+    top: 32px;
+    right: 0;
+    width: 72%;
+    height: 57%;
+    transform: rotate(40deg);
+    background-color: var(--color-shadow-icon-2);
+  }
+  
+  .icon_3::after {
+    top: 30px;
+    right: 0;
+    width: 67%;
+    height: 70%;
+    transform: rotate(40deg);
+    background-color: var(--color-shadow-icon-3);
+  }
+  
+  .icon_4::after {
+    top: 28px;
+    right: 0;
+    width: 67%;
+    height: 76%;
+    transform: rotate(40deg);
+    background-color: var(--color-shadow-icon-4);
+  }
+  
+  .icon_1::before,
+  .icon_2::before {
+    color: rgba(0, 0, 0, 0.2);
+  }
+  .icon_3::before {
+    color: rgba(0, 0, 0, 0.15);
+  }
+  
+  .icon_4::before {
+    content: none;
+  }
+  
+  .icon:hover > .icon_img_1,
+  .icon:hover > .icon_img_2,
+  .icon:hover > .icon_img_3,
+  .icon:hover > .icon_img_4 {
+    display: none;
+  }
+  
+  .icon_1:hover::before,
+  .icon_2:hover::before,
+  .icon_3:hover::before,
+  .icon_4:hover::before {
+    opacity: 1;
+  }
+  
+  .icon_1:hover::after,
+  .icon_2:hover::after,
+  .icon_3:hover::after,
+  .icon_4:hover::after {
+    opacity: 0;
+  }
+  
+  .icon:hover > .icon_text {
+    display: block;
+    z-index: 100;
+  }
+  
+  .icon_subtext {
+    position: absolute;
+    bottom: -35px;
+    left: calc(50% - 20px);
+    color: #929eb2;
+  }
+  
+  .icon .icon_text {
+    display: none;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.15;
+    color: white;
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 576px) {
+    .icon {
+      margin: 16px;
+    }
+  }
+  
