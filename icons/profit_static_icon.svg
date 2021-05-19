@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42" height="41" viewBox="0 0 42 41">
+  <g fill="none" transform="translate(.023 .86)">
+    <polygon fill="#FFF" points="29.57 0 7.07 0 7.07 38.281 34.883 38.281 34.883 5.312"/>
+    <polygon fill="#E0E0E0" points="34.883 5.312 29.57 0 21.009 0 21.009 38.281 34.883 38.281"/>
+    <polygon fill="silver" points="29.57 5.312 34.883 5.312 29.57 0"/>
+    <rect width="21.769" height="26.441" x="19.342" y="12.719" fill="#333"/>
+    <rect width="11.191" height="26.441" x="29.92" y="12.719" fill="#1A1A1A"/>
+    <polygon fill="#B9EAFF" points="20.848 14.271 39.607 14.271 39.607 19.961 20.848 19.961"/>
+    <polygon fill="#35CCFF" points="29.92 14.271 39.607 14.271 39.607 19.961 29.92 19.961"/>
+    <g fill="gray" transform="translate(20.977 22.305)">
+      <circle cx="1.75" cy="1.74" r="1.652"/>
+      <circle cx="6.573" cy="1.74" r="1.652"/>
+    </g>
+    <circle cx="32.373" cy="24.045" r="1.652" fill="#666"/>
+    <g fill="gray" transform="translate(21.074 27.856)">
+      <circle cx="1.652" cy="1.652" r="1.652"/>
+      <circle cx="6.476" cy="1.652" r="1.652"/>
+    </g>
+    <circle cx="32.373" cy="29.508" r="1.652" fill="#666"/>
+    <g fill="gray" transform="translate(20.977 33.203)">
+      <circle cx="1.75" cy="1.767" r="1.652"/>
+      <circle cx="6.573" cy="1.767" r="1.652"/>
+    </g>
+    <circle cx="32.373" cy="34.97" r="1.652" fill="#666"/>
+    <g fill="#FF6838" transform="translate(35.86 22.305)">
+      <circle cx="1.665" cy="1.74" r="1.652"/>
+      <circle cx="1.665" cy="7.204" r="1.652"/>
+      <circle cx="1.665" cy="12.666" r="1.652"/>
+    </g>
+    <polygon fill="#FFDC00" points="1.093 34.575 15.156 34.575 15.156 38.281 1.093 38.281"/>
+    <polygon fill="#FFC000" points="7.869 34.575 15.155 34.575 15.155 38.281 7.869 38.281"/>
+    <polygon fill="#FFDC00" points="0 27.166 14.063 27.166 14.063 30.871 0 30.871"/>
+    <polygon fill="#FFC000" points="7.869 27.166 14.062 27.166 14.062 30.871 7.869 30.871"/>
+    <polygon fill="#FFB344" points="2.49 30.871 16.553 30.871 16.553 34.576 2.49 34.576"/>
+    <polygon fill="#FF9451" points="7.869 30.871 16.553 30.871 16.553 34.576 7.869 34.576"/>
+    <polygon fill="#FFB344" points="1.093 23.46 15.156 23.46 15.156 27.165 1.093 27.165"/>
+    <polygon fill="#FF9451" points="7.869 23.46 15.155 23.46 15.155 27.165 7.869 27.165"/>
+  </g>
+</svg>
