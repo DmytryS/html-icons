@@ -77,6 +77,18 @@ body {
 
 .icon::before {
   opacity: 0;
+  content: "!";
+  position: absolute;
+  top: -18px;
+  bottom: 0;
+  font-size: 60px;
+  font-family: "Inconsolata", monospace;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.icon.icon_5::before {
+  opacity: 0;
   content: "\2713";
   position: absolute;
   top: -18px;
